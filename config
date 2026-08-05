@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[user]
+	name = Aditya Rana
+	email = adityarana0104@gmail.com
+[remote "origin"]
+	url = https://github.com/adityarana0104-bit/sarvdnya_travels.git
+	fetch = +refs/heads/*:refs/remotes/origin/*

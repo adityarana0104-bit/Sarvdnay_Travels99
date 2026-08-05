@@ -1,0 +1,2 @@
+0000000000000000000000000000000000000000 48babcc10af59fecf5cb67235f6181563cde2ec0 Aditya Rana <adityarana0104@gmail.com> 1785934731 +0000	commit (initial): Initial commit - Sarvdnya Travels application with Vercel deployment support
+48babcc10af59fecf5cb67235f6181563cde2ec0 7341c9ed400350396847e494cf62edd6a6ba2602 Aditya Rana <adityarana0104@gmail.com> 1785936224 +0000	commit: Configure vercel.json outputDirectory to dist for Vite
