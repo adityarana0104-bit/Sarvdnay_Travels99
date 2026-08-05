@@ -1,0 +1,70 @@
+{
+  "entities": {
+    "inquiry": {
+      "title": "Booking Inquiry",
+      "description": "Vehicle booking inquiries submitted by customers",
+      "properties": {
+        "fullName": {
+          "type": "string",
+          "description": "Customer full name"
+        },
+        "mobileNumber": {
+          "type": "string",
+          "description": "Customer 10-digit mobile number"
+        },
+        "vehicleName": {
+          "type": "string",
+          "description": "Name of the requested vehicle"
+        },
+        "vehicleType": {
+          "type": "string",
+          "description": "AC or Non-AC"
+        },
+        "seatingCapacity": {
+          "type": "number",
+          "description": "Seating capacity of vehicle"
+        },
+        "pickupLocation": {
+          "type": "string",
+          "description": "Pickup point location"
+        },
+        "destinationLocation": {
+          "type": "string",
+          "description": "Destination location"
+        },
+        "travelDate": {
+          "type": "string",
+          "description": "Expected travel date"
+        },
+        "additionalRequirements": {
+          "type": "string",
+          "description": "Additional notes or trip requirements"
+        },
+        "status": {
+          "type": "string",
+          "description": "Inquiry status: new, contacted, confirmed, cancelled"
+        },
+        "createdAt": {
+          "type": "string",
+          "description": "ISO timestamp when submitted"
+        },
+        "source": {
+          "type": "string",
+          "description": "Source form: modal or contact_section"
+        }
+      }
+    }
+  },
+  "firestore": {
+    "inquiries/{inquiryId}": {
+      "schema": "inquiry",
+      "description": "Collection storing all customer booking inquiries",
+      "allow": {
+        "read": "true",
+        "create": "request.resource.data.fullName is string && request.resource.data.mobileNumber is string",
+        "update": "true",
+        "delete": "true"
+      }
+    }
+  }
+}

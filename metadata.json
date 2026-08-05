@@ -1,0 +1,6 @@
+{
+  "name": "सर्वज्ञ टूर्स & ट्रॅव्हल्स - Sarvdnya Tours & Travels",
+  "description": "सर्वज्ञ टूर्स & ट्रॅव्हल्स - AC आणि Non-AC वाहन सेवा. कौटुंबिक सहली, धार्मिक यात्रा, कॉर्पोरेट टूर आणि लग्न समारंभासाठी सर्वोत्तम प्रवासी सेवा.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
