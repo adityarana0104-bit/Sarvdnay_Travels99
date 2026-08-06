@@ -12,7 +12,7 @@ import { Language } from './types';
 import { Phone, MessageSquare } from 'lucide-react';
 
 export default function App() {
-  const [lang, setLang] = useState<Language>('mr');
+  const [lang, setLang] = useState<Language>('en');
   const [inquiryModalOpen, setInquiryModalOpen] = useState(false);
   const [adminModalOpen, setAdminModalOpen] = useState(false);
   const [preselectedVehicleId, setPreselectedVehicleId] = useState<string | undefined>(undefined);

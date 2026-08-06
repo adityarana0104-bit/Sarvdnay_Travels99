@@ -30,7 +30,10 @@ export const Footer: React.FC<FooterProps> = ({ lang, onOpenInquiry }) => {
               </div>
               <div>
                 <h3 className="text-lg font-black text-white">{t.brandName}</h3>
-                <p className="text-xs text-orange-400 font-medium">{t.tagline}</p>
+                <p className="text-xs text-orange-400 font-bold flex items-center gap-1">
+                  <span>{t.tagline}</span>
+                  <span className="text-amber-300 font-extrabold">• Since 2013</span>
+                </p>
               </div>
             </div>
 
@@ -164,7 +167,7 @@ export const Footer: React.FC<FooterProps> = ({ lang, onOpenInquiry }) => {
               </div>
               <div className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-orange-400 shrink-0 mt-0.5" />
-                <span className="text-blue-100/70">महाराष्ट्र, भारत</span>
+                <span className="text-blue-100/90 font-medium">{lang === 'mr' ? 'बोधवड, जळगाव, महाराष्ट्र' : 'Bodwad, Jalgaon, Maharashtra'}</span>
               </div>
             </div>
           </div>
@@ -172,7 +175,7 @@ export const Footer: React.FC<FooterProps> = ({ lang, onOpenInquiry }) => {
 
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between text-xs text-blue-100/60 gap-4">
-          <p>© 2026 सर्वज्ञ टूर्स & ट्रॅव्हल्स. All Rights Reserved.</p>
+          <p>© 2026 सर्वज्ञ टूर्स & ट्रॅव्हल्स (Since 2013). All Rights Reserved.</p>
           <p className="flex items-center gap-1">
             <span>सुरक्षित आणि आनंददायी प्रवासासाठी कटिबद्ध</span>
             <Heart className="w-3.5 h-3.5 text-rose-500 fill-rose-500 inline" />

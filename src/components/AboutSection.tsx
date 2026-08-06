@@ -1,5 +1,5 @@
 import React from 'react';
-import { UserCheck, Sparkles, Tag, Clock, ShieldCheck, HeartHandshake, CheckCircle2 } from 'lucide-react';
+import { UserCheck, Sparkles, Tag, Clock, ShieldCheck, HeartHandshake, CheckCircle2, Award } from 'lucide-react';
 import { Language } from '../types';
 import { translations } from '../data/translations';
 
@@ -63,11 +63,15 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ lang }) => {
         {/* Content Box */}
         <div className="bg-white/10 backdrop-blur-2xl rounded-3xl p-6 sm:p-10 shadow-2xl border border-white/20 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
           <div className="lg:col-span-7 space-y-5">
+            <div className="inline-flex items-center gap-2 bg-amber-500/20 border border-amber-400/40 text-amber-300 px-3.5 py-1 rounded-full text-xs font-bold shadow-sm">
+              <Award className="w-4 h-4 text-amber-400" />
+              <span>{t.estdBadge} (ESTD. 2013)</span>
+            </div>
             <h3 className="text-2xl sm:text-3xl font-bold text-white leading-snug">
               {t.brandName} - <span className="text-orange-400">{t.tagline}</span>
             </h3>
             <p className="text-blue-100/90 text-base sm:text-lg leading-relaxed font-normal">
-              {t.aboutContent}
+              {t.aboutContent} सन २०१३ पासून (Since 2013) अविरतपणे ग्राहकांच्या विश्वासाला पात्र ठरत आम्ही सुरक्षित व सोयीस्कर ट्रॅव्हल्स सेवा पुरवत आहोत.
             </p>
 
             <div className="pt-2 grid grid-cols-1 sm:grid-cols-2 gap-3">

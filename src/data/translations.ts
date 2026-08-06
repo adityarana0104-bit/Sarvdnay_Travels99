@@ -16,6 +16,9 @@ export const translations = {
     bookNow: 'आत्ताच बुक करा',
 
     // Hero Features
+    heroTrustBadge: '★ २०१३ पासून ग्राहकांच्या सेवेत | १३+ वर्षांचा अखंड विश्वास',
+    estdBadge: '२०१३ पासून सेवेत',
+    since2013: 'स्थापना २०१३',
     heroFeature1: 'AC & Non-AC पर्याय',
     heroFeature2: 'अनुभवी व नम्र चालक',
     heroFeature3: '24x7 तत्पर सेवा',
@@ -47,8 +50,8 @@ export const translations = {
     statToursCompletedLabel: 'यशस्वी ट्रिप्स',
     statVehicles: '२०+',
     statVehiclesLabel: 'वाहनांचा ताफा',
-    statYearsExp: '८+',
-    statYearsExpLabel: 'वर्षांचा अनुभव',
+    statYearsExp: '१३+',
+    statYearsExpLabel: 'वर्षांचा अनुभव (२०१३ पासून)',
 
     // Fleet Section
     fleetTitle: 'आमच्या गाड्यांचा ताफा',
@@ -115,7 +118,7 @@ export const translations = {
     phoneLabel: 'फोन नंबर',
     emailLabel: 'ईमेल आयडी',
     addressLabel: 'कार्यालय पत्ता',
-    addressValue: 'महाराष्ट्र, भारत (24x7 पिकअप व ड्रॉप सेवा उपलब्ध)',
+    addressValue: 'बोधवड, जळगाव, महाराष्ट्र, भारत (24x7 पिकअप व ड्रॉप सेवा उपलब्ध)',
     contactFormTitle: 'संदेश पाठवा',
     fieldMessage: 'तुमचा संदेश किंवा प्रवासाचे तपशील',
     btnSendMessage: 'संदेश पाठवा',
@@ -146,6 +149,9 @@ export const translations = {
     bookNow: 'Book Now',
 
     // Hero Features
+    heroTrustBadge: '★ Serving Happy Travelers Since 2013 | 13+ Years of Trust',
+    estdBadge: 'Serving Since 2013',
+    since2013: 'Estd. 2013',
     heroFeature1: 'AC & Non-AC Vehicles',
     heroFeature2: 'Experienced & Polite Drivers',
     heroFeature3: '24x7 Reliable Service',
@@ -177,8 +183,8 @@ export const translations = {
     statToursCompletedLabel: 'Tours Completed',
     statVehicles: '20+',
     statVehiclesLabel: 'Vehicles in Fleet',
-    statYearsExp: '8+',
-    statYearsExpLabel: 'Years Experience',
+    statYearsExp: '13+',
+    statYearsExpLabel: 'Years of Experience (Since 2013)',
 
     // Fleet Section
     fleetTitle: 'Our Vehicle Fleet',
@@ -245,7 +251,7 @@ export const translations = {
     phoneLabel: 'Phone Number',
     emailLabel: 'Email Address',
     addressLabel: 'Office Location',
-    addressValue: 'Maharashtra, India (24x7 Pickup & Drop Service Available)',
+    addressValue: 'Bodwad, Jalgaon, Maharashtra, India (24x7 Pickup & Drop Service Available)',
     contactFormTitle: 'Send Us a Message',
     fieldMessage: 'Your Message or Travel Details',
     btnSendMessage: 'Send Message',

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Phone, Mail, Menu, X, Globe, MessageSquare, ShieldCheck } from 'lucide-react';
+import { Phone, Mail, Menu, X, Globe, MessageSquare, ShieldCheck, MapPin } from 'lucide-react';
 import { Language } from '../types';
 import { translations } from '../data/translations';
 
@@ -56,6 +56,10 @@ export const Header: React.FC<HeaderProps> = ({ lang, setLang, onOpenInquiry, on
               <Mail className="w-3.5 h-3.5 text-orange-400" />
               <span>Sarvdnyatravels9499@gmail.com</span>
             </a>
+            <div className="flex items-center gap-1 text-amber-300 bg-white/10 px-2.5 py-0.5 rounded-full border border-white/15 text-[11px] font-medium">
+              <MapPin className="w-3 h-3 text-orange-400 shrink-0" />
+              <span>{lang === 'mr' ? 'कार्यालय: बोधवड, जळगाव' : 'Office: Bodwad, Jalgaon, Maharashtra'}</span>
+            </div>
           </div>
 
           <div className="flex items-center gap-3">

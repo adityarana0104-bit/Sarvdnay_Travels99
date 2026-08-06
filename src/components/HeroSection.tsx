@@ -29,9 +29,12 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ lang, onOpenInquiry })
       {/* Hero Content Container */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-20 flex flex-col items-center text-center">
         {/* Top Trust Badge */}
-        <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-xl border border-white/20 text-orange-300 px-5 py-2 rounded-full text-xs sm:text-sm font-semibold mb-6 shadow-xl animate-fade-in">
-          <Award className="w-4 h-4 text-orange-400" />
-          <span>{t.tagline}</span>
+        <div className="inline-flex items-center gap-2.5 bg-gradient-to-r from-amber-500/20 via-orange-500/20 to-amber-500/20 backdrop-blur-xl border border-amber-400/40 text-amber-200 px-5 py-2.5 rounded-full text-xs sm:text-sm font-bold mb-6 shadow-2xl animate-fade-in ring-1 ring-amber-400/20">
+          <Award className="w-4 h-4 text-amber-400 shrink-0" />
+          <span className="tracking-wide">{t.heroTrustBadge}</span>
+          <span className="bg-amber-500 text-slate-950 font-black px-2 py-0.5 rounded-full text-[10px] tracking-wider uppercase ml-1">
+            Since 2013
+          </span>
         </div>
 
         {/* Main Headline */}
@@ -106,13 +109,13 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ lang, onOpenInquiry })
             </div>
           </div>
 
-          <div className="bg-white/10 backdrop-blur-xl border border-white/20 p-4 rounded-2xl flex items-center gap-3 text-left hover:bg-white/15 transition-all shadow-lg">
-            <div className="p-2.5 bg-amber-500/20 text-amber-300 rounded-xl shrink-0 border border-amber-500/30">
+          <div className="bg-gradient-to-br from-amber-500/20 to-orange-500/20 backdrop-blur-xl border border-amber-400/40 p-4 rounded-2xl flex items-center gap-3 text-left hover:bg-white/15 transition-all shadow-lg ring-1 ring-amber-400/20">
+            <div className="p-2.5 bg-amber-500/30 text-amber-300 rounded-xl shrink-0 border border-amber-400/50">
               <Award className="w-5 h-5" />
             </div>
             <div>
-              <p className="text-xs sm:text-sm font-bold text-white">{t.heroFeature4}</p>
-              <p className="text-[11px] text-blue-200/80">वाजवी व पारदर्शक</p>
+              <p className="text-xs sm:text-sm font-black text-amber-300">१३+ वर्षे विश्वास (Since 2013)</p>
+              <p className="text-[11px] text-blue-200/90 font-medium">{t.heroFeature4}</p>
             </div>
           </div>
         </div>
