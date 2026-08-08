@@ -7,5 +7,8 @@ service cloud.firestore {
       allow update: if true;
       allow delete: if true;
     }
+    match /settings/{settingId} {
+      allow read, write: if true;
+    }
   }
 }

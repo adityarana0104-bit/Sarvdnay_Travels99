@@ -131,6 +131,13 @@ export const Header: React.FC<HeaderProps> = ({ lang, setLang, onOpenInquiry, on
               {t.navHome}
             </button>
             <button
+              onClick={() => scrollToSection('interior-video')}
+              className="text-amber-300 hover:text-orange-400 font-semibold transition-colors py-1 relative flex items-center gap-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-orange-500 hover:after:w-full after:transition-all"
+            >
+              <span className="w-2 h-2 rounded-full bg-orange-500 animate-pulse" />
+              <span>{lang === 'mr' ? 'व्हिडिओ टूर' : 'Video Tour'}</span>
+            </button>
+            <button
               onClick={() => scrollToSection('about')}
               className="text-white/80 hover:text-orange-400 transition-colors py-1 relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-orange-500 hover:after:w-full after:transition-all"
             >

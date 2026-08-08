@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Header } from './components/Header';
 import { HeroSection } from './components/HeroSection';
+import { VideoSection } from './components/VideoSection';
 import { AboutSection } from './components/AboutSection';
 import { FleetSection } from './components/FleetSection';
 import { ServicesSection } from './components/ServicesSection';
@@ -49,6 +50,7 @@ export default function App() {
       {/* Main Sections */}
       <main className="flex-1 relative z-10 space-y-4">
         <HeroSection lang={lang} onOpenInquiry={handleOpenInquiry} />
+        <VideoSection lang={lang} onOpenInquiry={handleOpenInquiry} />
         <AboutSection lang={lang} />
         <FleetSection lang={lang} onOpenInquiry={handleOpenInquiry} />
         <ServicesSection lang={lang} onOpenInquiry={handleOpenInquiry} />
